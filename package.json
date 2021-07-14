@@ -1,0 +1,15 @@
+{
+  "name": "coach-interview-client",
+  "version": "1.0.0",
+  "description": "Application that allows a coach to collect post-match feedback from his players.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "football",
+    "coaching"
+  ],
+  "author": "Barth",
+  "license": "ISC"
+}
