@@ -4,6 +4,10 @@
   "description": "Application that allows a coach to collect post-match feedback from his players.",
   "main": "index.js",
   "scripts": {
+    "start:dev": "webpack serve --mode development",
+    "build:dev": "webpack --mode development",
+    "start:prod": "webpack serve --mode production",
+    "build:prod": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +15,26 @@
     "coaching"
   ],
   "author": "Barth",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.0.0",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "typescript": "^4.3.5"
+  }
 }
